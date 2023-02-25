@@ -1,6 +1,6 @@
 let participants = document.getElementById('participants');
 
-fetch('https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-cc56ce79-08c0-4dc2-8be7-c6eabd473581/nhacks/getParticipants')
+fetch('https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-cc56ce79-08c0-4dc2-8be7-c6eabd473581/codingForSDG/getParticipants')
     .then(response => response.json())
     .then(body => {
         body.forEach(element => {
